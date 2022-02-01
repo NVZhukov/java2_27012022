@@ -24,7 +24,7 @@ public class Robot implements Player{
 
     @Override
     public void jump(int dist) {
-        if(dist<=maxRun){
+        if(dist<=maxJump){
             System.out.println("Робот перепрыгнул "+ dist);
         }else {
             System.out.println("Робот не смог перепрыгнуть "+ dist);

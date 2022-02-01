@@ -24,7 +24,7 @@ public class Cat implements Player{
 
     @Override
     public void jump(int dist) {
-        if(dist<=maxRun){
+        if(dist<=maxJump){
             System.out.println("Кот перепрыгнул "+ dist);
         }else {
             System.out.println("Кот не смог перепрыгнуть "+ dist);
